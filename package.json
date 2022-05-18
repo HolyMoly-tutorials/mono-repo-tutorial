@@ -1,18 +1,23 @@
 {
-  "name": "monorepo-tutorial",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HolyMoly-tutorials/mono-repo-tutorial.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HolyMoly-tutorials/mono-repo-tutorial/issues"
-  }
+	"name": "monorepo-tutorial",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/HolyMoly-tutorials/mono-repo-tutorial.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/HolyMoly-tutorials/mono-repo-tutorial/issues"
+	},
+	"devDependencies": {
+		"lerna": "^4.0.0",
+		"rollup": "^2.73.0",
+		"typescript": "^4.6.4"
+	}
 }
