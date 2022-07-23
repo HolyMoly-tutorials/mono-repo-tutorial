@@ -1,0 +1,10 @@
+{
+    "name": "sample-one",
+    "version": "1.0.0",
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "rm -rf dist && NODE_ENV=production rollup -c ../../rollup.config.js"
+    }
+}
