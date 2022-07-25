@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "lerna run build"
+        "build": "lerna run build",
+        "publish": "lerna publish from-package --y --no-verify-access"
     },
     "repository": {
         "type": "git",
