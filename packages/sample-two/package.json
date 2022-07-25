@@ -6,6 +6,5 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "NODE_ENV=production rollup -c ../../rollup.config.js"
-    },
-    "gitHead": "04971f4a9f8524e724675a682af7d0875df12e38"
+    }
 }
